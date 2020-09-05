@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Specificdriverdetail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Details"
+        android:textColor="@color/textcolor"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/driverimage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_person"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="15sp"
+                android:textColor="@color/textcolor"
+                android:layout_marginTop="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email-ID"
+                android:textSize="15sp"
+                android:textColor="@color/textcolor"
+                android:layout_marginTop="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact no"
+                android:textSize="15sp"
+                android:textColor="@color/textcolor"
+                android:layout_marginTop="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City ID"
+                android:textSize="15sp"
+                android:textColor="@color/textcolor"
+                android:layout_marginTop="7dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/drivername"
+                android:text="Sarhan"
+                android:textSize="15sp"
+                android:textColor="@color/textcolor"
+                android:layout_marginTop="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/driveremail"
+                android:text="Sarhanbax@gmail.com"
+                android:textSize="15sp"
+                android:textColor="@color/textcolor"
+                android:layout_marginTop="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/drivercontact"
+                android:text="8155094218"
+                android:textSize="15sp"
+                android:textColor="@color/textcolor"
+                android:layout_marginTop="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/drivercity"
+                android:text="390012"
+                android:textSize="15sp"
+                android:textColor="@color/textcolor"
+                android:layout_marginTop="7dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Details"
+        android:textColor="@color/textcolor"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle-no"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle-name"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Driver_stars"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vehicleno"
+                    android:text="Gj62215"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vehicle_name"
+                    android:text="Car"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/driver_review"
+                    android:text="5"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description"
+                    android:text="good condition"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal"
+        android:background="@drawable/yellow">
+        <ImageView
+            android:id="@+id/vehicle_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_people"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal"
+        android:background="@drawable/yellow">
+        <ImageView
+            android:id="@+id/licensefront"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_people"/>
+        <ImageView
+            android:id="@+id/licenseback"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_people"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal"
+        android:background="@drawable/yellow">
+        <ImageView
+            android:id="@+id/rcfront"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_people"/>
+        <ImageView
+            android:id="@+id/rcback"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_people"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank Details"
+        android:textColor="@color/textcolor"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ac_holder_name"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bank_name"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ac_no"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IFSC"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/driveracname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Sarhan"
+                    android:textColor="@color/textcolor"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/driverbankname"
+                    android:text="SBI"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/acno"
+                    android:text="8155094218"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/driverifsc"
+                    android:text="390012"
+                    android:textSize="15sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="7dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ridesdetails"
+        android:background="@drawable/green"
+        android:layout_marginBottom="50dp"
+        android:text="rides details"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paymentdetails"
+        android:background="@drawable/green"
+        android:layout_marginBottom="50dp"
+        android:text="payment details"/>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

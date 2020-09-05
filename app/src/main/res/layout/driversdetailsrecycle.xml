@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DriversDetails">
+<include
+    layout="@layout/toolbar_layout"/>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerfordetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+        <include layout="@layout/shimmerlayoutfordetailsdriver" />
+        <include layout="@layout/shimmerlayoutfordetailsdriver" />
+        <include layout="@layout/shimmerlayoutfordetailsdriver" />
+
+        <include layout="@layout/shimmerlayoutfordetailsdriver" />
+
+        <include layout="@layout/shimmerlayoutfordetailsdriver" />
+
+        <include layout="@layout/shimmerlayoutfordetailsdriver" />
+
+
+
+    </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="75dp"
+        android:id="@+id/driverdetailsrecyclers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:id="@+id/test"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/yellow">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_person"
+                    android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/total_users"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1314"
+                        android:textColor="@color/textcolor"
+                        android:textSize="25sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL USERS"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/textcolor"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:text="Driver"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/textcolor"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@drawable/blue">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_cancel"
+                            android:layout_gravity="center"
+                           />
+
+                        <TextView
+                            android:id="@+id/rejected_drivers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1314"
+                            android:textColor="@color/textcolor"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REJECTED DRIVERS"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/textcolor"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/DRIVERDETAILS"
+                android:layout_weight="1"
+                android:background="@drawable/green">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_directions_car_"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/total_drivers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1314"
+                            android:textColor="@color/textcolor"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL DRIVERS"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/textcolor"/>
+                </LinearLayout>
+        </LinearLayout>
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:background="@drawable/blue">
+                    <LinearLayout
+                        android:id="@+id/Test"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_done"
+                                android:layout_gravity="center" />
+
+                            <TextView
+                                android:id="@+id/approved_drivers"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1314"
+                                android:textColor="@color/textcolor"
+                                android:textSize="25sp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="APPROVED DRIVERS"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/textcolor"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/violet">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_timer"
+                                android:layout_gravity="center" />
+
+                            <TextView
+                                android:id="@+id/pending_request"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1314"
+                                android:textColor="@color/textcolor"
+                                android:textSize="25sp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PENDING REQUEST"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/textcolor"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:background="@drawable/blue">
+                <LinearLayout
+                    android:id="@+id/PASSENGER"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_people"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/total_passengers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1314"
+                            android:textColor="@color/textcolor"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL PASSENGER"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/textcolor"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/refund"
+                android:text="Rides"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/textcolor"/>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_people"/>
+                <TextView
+                    android:layout_marginLeft="35dp"
+                    android:id="@+id/rides_booked"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1314"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RIDES BOOKED"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_people"/>
+                <TextView
+                    android:layout_marginLeft="35dp"
+
+                    android:id="@+id/rides_completed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1314"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RIDES COMPLETED"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_people"/>
+                <TextView
+                    android:layout_marginLeft="35dp"
+
+                    android:id="@+id/rides_cancelled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="1314"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RIDES CANCELLED"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_people"/>
+                <TextView
+                    android:id="@+id/rides_pending"
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="1314"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RIDES PENDING"
+                    android:textColor="@color/textcolor"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:text="Vahicles"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/textcolor"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear_layoutforvehicletype"
+           >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listviewforvehicletype"
+                android:layout_width="wrap_content"
+                android:scrollbars="horizontal"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:background="@drawable/yellow">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_local_car_wash"
+                                android:layout_gravity="center"
+                                />
+
+                            <TextView
+                                android:id="@+id/car"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1314"
+                                android:textColor="@color/textcolor"
+                                android:textSize="25sp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vehicles"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/textcolor"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/blue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_directions_car_"
+                                android:layout_gravity="center" />
+
+                            <TextView
+                                android:id="@+id/autorickshaw"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1314"
+                                android:textColor="@color/textcolor"
+                                android:textSize="25sp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AUTO RICKSHAW"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/textcolor"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:background="@drawable/green">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_local_car_wash"
+                                android:layout_gravity="center" />
+
+                            <TextView
+                                android:id="@+id/bike"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1314"
+                                android:textColor="@color/textcolor"
+                                android:textSize="25sp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BIKE"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/textcolor"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/violet">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_directions_car_"
+                                android:layout_gravity="center" />
+
+                            <TextView
+                                android:id="@+id/sedan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1314"
+                                android:textColor="@color/textcolor"
+                                android:textSize="25sp"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cars"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/textcolor"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+</LinearLayout>
+</ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

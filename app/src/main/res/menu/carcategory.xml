@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/ic_filter_list"
+    android:title="TODO">
+
+
+    <item
+        android:id="@+id/Sedan"
+        android:enabled="true"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_directions_car_"
+        android:title="Sedan" />
+    <item
+        android:id="@+id/Economy"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_directions_car_"
+        android:title="Economy"
+        />
+    <item
+        android:id="@+id/Xl"
+        android:enabled="true"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_directions_car_"
+        android:title="Xl" />
+    <item
+        android:id="@+id/hatchback"
+        android:enabled="true"
+        android:orderInCategory="4"
+        android:icon="@drawable/ic_directions_car_"
+        android:title="Hatchback" />
+
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AjaaAdmin</string>
+
+    <!--Demo Url-->
+    <string name="api_url">https://demo.ajaa.co.in/api/auth/</string>
+    <string name="local_images_urls">https://demo.ajaa.co.in/images/</string>
+    <string name="image_url">https://demo.ajaa.co.in/images/</string>
+    <string name="vehicle_live_image_url">https://demo.ajaa.co.in/images/vehicle/</string>
+    <string name="vehicle_image_url">https://demo.ajaa.co.in/images/vehicle/</string>
+</resources>
